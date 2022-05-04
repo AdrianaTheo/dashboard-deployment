@@ -27,6 +27,7 @@ app.layout = dbc.Container([
                                         ], color = '#000000', type = 'dot', fullscreen=True ) ))
 ])
 
+
 @app.callback(
     Output('your-graph', 'figure'),
     Input('year-slider', 'value'))
